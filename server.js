@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.static('public'));
 app.use(express.json())
 
-app.post('/', (req, res)=>{
+app.post('/', (req, res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -34,23 +34,22 @@ app.post('/', (req, res)=>{
 
     const mailOptions = {
         from: "Nodemailer Contact <nodejsmailertest00@gmail.com>",
-        to: 'bismainlearn@gmail.com',
+        to: 'tomocamovie@gmail.com',
         subject: `Nodemailer Contact !!!`,
         html: output
     }
-    
-    transporter.sendMail(mailOptions, (error, info)=>{
-        if(error){
+
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
             console.log(error);
             res.send('error');
-        }
-        else{
+        } else {
             console.log('Email sent: ' + info.response);
             res.send('success')
         }
     })
 })
 
-app.listen(PORT, ()=>{
+app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
 })

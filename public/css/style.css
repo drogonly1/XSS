@@ -8,6 +8,7 @@
 *-----------------------------------------------------------------------
 */
 
+
 /***********************
     1.BASIC           
     2.HELPER
@@ -140,7 +141,7 @@ button:focus {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
-}   
+}
 
 .back_top {
     text-align: center;
@@ -163,6 +164,7 @@ button:focus {
     display: block;
 }
 
+
 /*==========================
         2.HELPER
 ============================*/
@@ -178,7 +180,7 @@ button:focus {
     background-color: #000;
 }
 
-.bg-custom{
+.bg-custom {
     background-color: #000;
 }
 
@@ -319,8 +321,8 @@ button:focus {
 }
 
 .btn-custom {
-    background-color: #000;
-    border: 2px solid #000;
+    background-color: #FF7300;
+    border: 2px solid #FF7300;
     color: #fff;
     transition: all 0.5s;
     font-size: 15px;
@@ -337,9 +339,10 @@ button:focus {
 .btn-custom:hover,
 .open>.dropdown-toggle.btn-custom {
     background-color: #fff;
-    border-color: #000;
-    color: #000;
+    border-color: #FF7300;
+    color: #FF7300;
 }
+
 
 /*==========================
         3.NAVBAR
@@ -447,6 +450,7 @@ button:focus {
     height: 28px;
 }
 
+
 /*==========================
         4.HOME
 ============================*/
@@ -526,6 +530,7 @@ button:focus {
     transition: all .2s;
 }
 
+
 /*----DEMO 4/5/6----*/
 
 .creative:after {
@@ -541,18 +546,21 @@ button:focus {
     background-image: url(../images/bottom-color.png);
 }
 
+
 /*----DEMO 7/8/9-----*/
 
-.clip-home{
+.clip-home {
     clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%);
 }
 
+
 /*----DEMO 10/11/12/13----*/
 
-.jarallax{
+.jarallax {
     background-size: cover;
     background-position: center center;
 }
+
 
 /*----DEMO 14----*/
 
@@ -575,6 +583,7 @@ button:focus {
     background-position: center center;
     background-size: cover;
 }
+
 
 /*==========================
         5.ABOUT ME
@@ -616,6 +625,7 @@ button:focus {
     background: #000;
 }
 
+
 /*==========================
         6.SERVICES
 ============================*/
@@ -627,6 +637,7 @@ button:focus {
 .lan_box_ser .ser_icon i {
     font-size: 42px;
 }
+
 
 /*==========================
         7.FUNFACTS
@@ -647,6 +658,7 @@ button:focus {
     background-size: cover;
     background-position: center center;
 }
+
 
 /*===========================
         8.EDUCATION
@@ -714,6 +726,7 @@ button:focus {
     color: #666;
 }
 
+
 /*==========================
         9.CTA SECTIOn
 ============================*/
@@ -724,6 +737,7 @@ button:focus {
     background-size: cover;
     background-position: center center;
 }
+
 
 /*===========================
         10.WORK
@@ -913,6 +927,7 @@ button:focus {
     left: -100%;
 }
 
+
 /*==========================
         11.CLIENT
 ============================*/
@@ -955,6 +970,7 @@ button:focus {
     width: 20px;
 }
 
+
 /*==========================
         12.GREATE PEOPLE
 ============================*/
@@ -963,6 +979,7 @@ button:focus {
     max-height: 100px;
     width: auto !important;
 }
+
 
 /*==========================
         13.SUBCRIBE SECTION
@@ -995,6 +1012,7 @@ button:focus {
     max-width: 550px;
 }
 
+
 /*==========================
         14.BLOG
 ============================*/
@@ -1022,6 +1040,7 @@ button:focus {
     line-height: 65px;
     background-color: #fff;
 }
+
 
 /*==========================
         15.CONTACT US
@@ -1075,6 +1094,7 @@ button:focus {
     font-size: 22px;
 }
 
+
 /*==========================
         16.FOOTER
 ============================*/
@@ -1100,6 +1120,7 @@ button:focus {
 .copy-rights {
     line-height: 43px;
 }
+
 
 /*==========================
         17.BLOG PAGE
@@ -1144,6 +1165,7 @@ button:focus {
     border-color: #000;
     z-index: 3;
 }
+
 
 /*---- SIDEBAR ----*/
 
@@ -1252,6 +1274,7 @@ button:focus {
     color: #000;
 }
 
+
 /*---BLOG SINGLE----*/
 
 .blockquote {
@@ -1318,6 +1341,7 @@ button:focus {
     height: auto;
 }
 
+
 /*==========================
         18.RESPONSIVE
 ============================*/
@@ -1369,14 +1393,18 @@ button:focus {
         font-size: 15px;
         line-height: 1.8;
     }
-    .home-bg,.h-100vh.jarallax,.h-100vh.bg-dark,.home-bg-slider .carousel-item{
+    .home-bg,
+    .h-100vh.jarallax,
+    .h-100vh.bg-dark,
+    .home-bg-slider .carousel-item {
         padding: 110px 0 170px 0;
     }
-    .h-100vh ,.home-bg-slider .carousel-item{
+    .h-100vh,
+    .home-bg-slider .carousel-item {
         height: auto;
     }
-    .clip-home{
-        clip-path:none;
+    .clip-home {
+        clip-path: none;
     }
     .custom-nav .navbar-brand.logo img {
         height: 26px;
@@ -1404,10 +1432,10 @@ button:focus {
     .comment_blog .comment_read:nth-child(odd) {
         margin-left: 34px;
     }
-    .blog_detail h4{
+    .blog_detail h4 {
         font-size: 18px;
     }
-    .blog_detail p.blockquote{
+    .blog_detail p.blockquote {
         font-size: 14px !important;
     }
 }
